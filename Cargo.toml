@@ -16,6 +16,10 @@ drm-fourcc = "^2.2.0"
 [dependencies.ascii_converter]
 version = "0.3.0"
 
+[dependencies.clap]
+version = "4.0.29"
+features = ["derive"]
+
 [dependencies.nix]
 version = "0.24.1"
 default-features = false
