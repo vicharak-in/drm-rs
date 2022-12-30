@@ -7,6 +7,9 @@ license = "MIT"
 authors = ["Tyler Slabinski <tslabinski@slabity.net>", "Victoria Brekenfeld <crates-io@drakulix.de>"]
 exclude = [".gitignore", ".github"]
 
+[build-dependencies]
+cc = "1.0.78"
+
 [dependencies]
 bitflags = "1"
 bytemuck = { version = "1.12", features = ["extern_crate_alloc", "derive"] }
